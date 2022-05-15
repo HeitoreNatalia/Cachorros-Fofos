@@ -1,0 +1,36 @@
+nav{
+    padding-left: 10px;
+    max-width: 20%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+
+}
+
+li a{
+    display: block;
+    padding: 8px 16px;
+    color: rosybrown;
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color: rosybrown;
+}
+
+li:last-child{
+    border-bottom: none;
+}
+
+img{
+    color: rosybrown;
+}
