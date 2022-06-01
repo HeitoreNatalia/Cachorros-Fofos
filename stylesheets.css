@@ -1,12 +1,30 @@
+body{
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
 nav{
-    padding-left: 10px;
-    max-width: 20%;
+    padding-left: 0;
+    width: 20%;
+    margin: 0;
+    border-right: pink;
+
     position: relative;
     display: flex;
     flex-direction: row;
 }
 
+section{
+    padding: 0 0 0 10.8%;
+    margin-top: 0;
+}
+
 nav ul{
+    background-color: #a51c30;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,10 +38,15 @@ nav ul{
 nav li a{
     display: block;
     padding: 8px 16px;
-    color: rosybrown;
+    color: ghostwhite;
     list-style: none;
     text-decoration: none;
-    text-decoration-color: rosybrown;
+}
+
+nav li:first-child{
+    font-size: 24px;
+    color: ghostwhite;
+    text-decoration: underline;
 }
 
 nav li:last-child{
@@ -31,8 +54,10 @@ nav li:last-child{
     border-right: none;
 }
 
-img{
-    color: rosybrown;
+
+
+menu{
+    width: 100%;
 
 }
 
