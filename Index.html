@@ -6,35 +6,43 @@
     <title>Cachorros Fofos</title>
     <link rel="icon" href="recursos/icone.png">
     <link rel="stylesheet" href="stylesheets.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
 
     <style>
 
+        @import url('https://fonts.google.com/specimen/Kalam');
+
         body{
-            background-color: rgba(223, 169, 169, 0.7);
+            background-color: #FFCDB2;
         }
 
+        .conteudo{
+            padding: 20px;
+        }
 
         .inicio{
             width: 100%;
             height: 100%;
             border-bottom: 1px solid ghostwhite;
-            padding: 10px 10px 10px 10px;
+            padding: 10px;
             margin-top: 40px;
             text-align: justify;
             text-justify: inter-word;
             text-indent: 0;
             font-family: sans-serif;
             color: #000B0B;
-            background-color: #fff4f4;
+            background-color: #B5838D;
             font-size: 20px;
 
         }
 
         .racas{
             font-family: Verdana, sans-serif;
-            color: #030B0B;
+            color: ghostwhite;
             padding: 10px;
-            background-color: #fff4f4;
+            background-color: #B5838D;
             margin-top: 40px;
         }
 
@@ -110,235 +118,374 @@
         }
 
         .adote{
+            font-family: Kalam;
+            font-size: 18px;
             padding: 10px;
             margin-top: 30px;
-            background-color: #604e4e;
+            background-color: #B5838D;
         }
+
+        .paginas tr{
+            font-size: 22px;
+        }
+
+        .indice{
+            margin: 40px;
+            width: 15%;
+            background-color: #B5838D;
+            font-size: 22px;
+            color: white;
+            font-family: "Kalam", sans-serif;
+        }
+
+        .indice ul a{
+            font-family: "Kalam";
+        }
+
+        .indice li{
+            font-family: "Kalam";
+            list-style-type: none;
+        }
+
+        .indice a{
+            color: white;
+            font-family: "Kalam";
+        }
+
     </style>
 
 
 </head>
 <body>
+<a name="topo"></a>
 <div class="menu">
     <ul>
         <li><a href="memes.html">Memes</a></li>
         <li><a href="midia.html">Mídia</a></li>
         <li><a href="mural.html">Mural</a></li>
-        <li><a href="cuidados.html">Cuidados-Especias</a></li>
-        <li style="float:right"><a class="active" href="Forms.html">Cadastre seu Doguinho</a></li>
+        <li style="float:right"><a class="active" href="Forms.html" target="_blank">Seu doguinho no mural</a></li>
     </ul>
 </div>
-<div class="inicio">
-    <p style="align: left; text-decoration: underline; font-size: 30px">Início</p>
-        <p>As origens do cão doméstico baseiam-se em suposições, por se tratar de ocorrências de milhares de anos, cujos
-    crescentes
-    estudos mudam em ambiente e datação dos fósseis. Uma das teorias aponta para um início anterior ao processo
-    de domesticação, apresentando a separação de lobo e cão há cerca de 135 000 anos, sob a luz dos encontrados restos
-    de canídeos com uma morfologia próxima à do cinzento, misturados com ossadas humanas.</p>
-    <p>No Egito Antigo, os cães eram reverenciados como conhecedores dos segredos do outro mundo, bem como utilizados na
-    caça e adorados na forma do deus Anúbis.</p>
-    <p>Com o fim do Império Romano, o mundo entrou na fase da Idade Média, já com os cães espalhados pelo continente euro
-    peu, levados pelos mercadores fenícios do Oriente Médio à região mediterrânea e adentrando a região seguindo solda
-    dos romanos.
-    Durante o Renascimento, a visão negativa sobre os cães foi desaparecendo, já que caíram no gosto dos nobres; neste
-    período, os caninos eram utilizados para a caça esportiva e criados com cuidado dentro dos canis de cada castelo.</p>
-    <p>Adiante, também na Europa, nasceram os cães de companhia, já que o apreço por eles crescia, conforme se via a
-    fidelidade. Ao mesmo tempo que a diversidade crescia no continente, tribos siberianas usavam seus cães para
-    praticamente
-    tudo, já que eram bastante fortes e úteis para locomoção e outras atividades. Estes caninos, importados da Sibéria,
-    ajudaram o ser humano na conquista dos pólos pelos primeiros homens a pisar no Polo Sul e Polo Norte, puxando seus
-    trenós.</p>
-    <p>No século seguinte, eventos tornaram a marcar a evolução canina. As guerras mundiais extinguiram as raças das
-    regiões mais afetadas e ajudaram a popularizar as variedades militares, como o pastor alemão e o
-    dobermann, enquanto rastreadores.</p>
-    <p>Modernamente, apesar de fazer parte da história humana desde a imagem divina aos soldados das guerras, o cão tornou
-    -se um animal de estimação apenas no século XX, já adaptado aos modos de vida dos seres humanos, devido a sua
-    habilidade de fazer de diversos ambientes os melhores possíveis, e ao voltar suas capacidades de aprendizado à
-    domesticação.</p>
+
+<div class="conteudo">
+    <img src="recursos/index/carinhas_fundo.jpg" width="100%" height="640px">
+
+    <div class="indice">
+        Índice
+        <ul>
+            <li><a href="#inicio">História</a></li>
+            <li><a href="#racas">Raças</a>
+                <ol>
+                    <li><a href="#shihtzu">Shih-Tzu</a></li>
+                    <li><a href="#yorkshire">Yorkshire</a></li>
+                    <li><a href="#poodle">Poodle</a></li>
+                    <li><a href="#lhasaapso">Lhasa Apso</a></li>
+                    <li><a href="#buldoguefrances">Buldogue-Francês</a></li>
+                    <li><a href="#golden">Golden Retriever</a></li>
+                    <li><a href="#labrador">Labrador</a></li>
+                    <li><a href="#maltes">Maltês</a></li>
+                    <li><a href="#pinscher">Pinscher</a></li>
+                </ol>
+            </li>
+            <li><a href="#adote">Adote</a></li>
+        </ul>
+    </div>
+
+<hr style="background-color: #E5989B; height: 1px; border: none;">
+    <p align="center">
+        <b style="font-size: 30px; color: #ffffff">VEJA MUITA FOFURA</b></p>
+    <br><br><br>
+
+    <div class="paginas">
+
+        <table>
+            <tr>
+                <td width="25%">
+                    <div class="links">
+                        <img class="links__img" src="recursos/mural/fofos/foto4.jfif" height="473px" alt="pagina dos memes">
+                        <a href="memes.html">
+                            <div class="links__overlay">
+                                <div class="links__titulo">Memes</div>
+                                <p class="links__descritpion">Memes fofos para te alegrar</p>
+                            </div></a>
+                    </div>
+
+                </td>
+
+                <td width="25%">
+                    <div class="links">
+                        <img class="links__img" src="recursos/mural/fofos/foto7.jfif" height="473px" alt="pagina da mídia"><br>
+                        <a href="midia.html">
+                            <div class="links__overlay">
+                                <div class="links__titulo">Mídia</div>
+                                <p class="links__description">As fotos preferidas dos criadores</p>
+                            </div></a>
+                    </div>
+                </td>
+
+                <td width="25%">
+                    <div class="links">
+                        <a href="mural.html"><img class="links__img" src="recursos/mural/fofos/foto11.jfif" height="473px" alt="pagina do mural"></a><br>
+                        <a href="mural.html">
+                            <div class="links__overlay">
+                                <div class="links__titulo">Mural</div>
+                                <p class="links__description">Os cachorrinhos fofos dos nossos leitores</p>
+                            </div></a>
+                    </div>
+                </td>
+
+            </tr>
+
+        </table>
+    </div>
+
+
+    <a name="inicio"></a>
+    <div class="inicio">
+        <div>
+            <img src="recursos/index/iniciofoto.jpg" style="float:right; margin: 10px;">
+        </div>
+        <div style="color: white;">
+            <p style="align: left; text-decoration: underline; font-size: 30px; color: pink">Os doguinhos pela história!</p>
+            <p>As origens do cão doméstico baseiam-se em suposições, por se tratar de ocorrências de milhares de anos, cujos
+                crescentes
+                estudos mudam em ambiente e datação dos fósseis. Uma das teorias aponta para um início anterior ao processo
+                de domesticação, apresentando a separação de lobo e cão há cerca de 135 000 anos, sob a luz dos encontrados restos
+                de canídeos com uma morfologia próxima à do cinzento, misturados com ossadas humanas.</p>
+            <p>No Egito Antigo, os cães eram reverenciados como conhecedores dos segredos do outro mundo, bem como utilizados na
+                caça e adorados na forma do deus Anúbis.</p>
+            <p>Com o fim do Império Romano, o mundo entrou na fase da Idade Média, já com os cães espalhados pelo continente euro
+                peu, levados pelos mercadores fenícios do Oriente Médio à região mediterrânea e adentrando a região seguindo solda
+                dos romanos.
+                Durante o Renascimento, a visão negativa sobre os cães foi desaparecendo, já que caíram no gosto dos nobres; neste
+                período, os caninos eram utilizados para a caça esportiva e criados com cuidado dentro dos canis de cada castelo.</p>
+            <p>Adiante, também na Europa, nasceram os cães de companhia, já que o apreço por eles crescia, conforme se via a
+                fidelidade. Ao mesmo tempo que a diversidade crescia no continente, tribos siberianas usavam seus cães para
+                praticamente
+                tudo, já que eram bastante fortes e úteis para locomoção e outras atividades. Estes caninos, importados da Sibéria,
+                ajudaram o ser humano na conquista dos pólos pelos primeiros homens a pisar no Polo Sul e Polo Norte, puxando seus
+                trenós.</p>
+            <p>No século seguinte, eventos tornaram a marcar a evolução canina. As guerras mundiais extinguiram as raças das
+                regiões mais afetadas e ajudaram a popularizar as variedades militares, como o pastor alemão e o
+                dobermann, enquanto rastreadores.</p>
+            <p>Modernamente, apesar de fazer parte da história humana desde a imagem divina aos soldados das guerras, o cão tornou
+                -se um animal de estimação apenas no século XX, já adaptado aos modos de vida dos seres humanos, devido a sua
+                habilidade de fazer de diversos ambientes os melhores possíveis, e ao voltar suas capacidades de aprendizado à
+                domesticação.</p>
+        </div>
+    </div>
+
+<br><br>
+
+
+    <div class="racas">
+        <p align="center">
+            <b style="font-weight: bolder; font-size: 30px; font-family: 'Arial Black'; color: pink;">Conheça algumas dentre as raças mais comuns</b>
+        </p>
+        <br>
+        <div>
+            <a name="shihtzu"></a>
+            <div id="shihtzu">
+                <b>Shih Tzu</b>
+                <br><br><br>
+                Os Shih Tzus estão sempre prontos para receber carinho, são muito dóceis e amigáveis com crianças e outros cães, por isso, são ótimas companhias. Eles se adaptam bem a pequenos espaços, sendo uma escolha frequente de tutores que moram em apartamentos. ⠀
+            </div>
+            <div class="imagem">
+                <img src="recursos/index/racas/Shihtzu.jpg" alt="Shih-Tzu" width="54%">
+            </div>
+            <br><br><br>
+        </div>
+
+        <div>
+            <a name="yorkshire"></a>
+            <div id="yorkshire">
+                <b>Yorkshire</b>
+                <br><br><br>
+                Os Yorkshires são cães fiéis e carinhosos, mas podem latir muito para estranhos. É preciso ter um cuidado especial na presença de crianças menores, que podem acabar machucando o cão sem querer. A raça mini é considerada de companhia, mas não gosta e nem deve ficar muito tempo no colo, pois a posição pode desencadear dores e problemas na coluna. Mesmo sendo pequeno, o Yorkshire precisa de exercícios para se manter saudável.
+            </div>
+
+            <div class="imagem">
+                <img src="recursos/index/racas/Yorkshire.jpg" alt="yorkshire" width="54%">
+            </div>
+            <br><br><br>
+        </div>
+
+        <div>
+            <a name="poodle"></a>
+            <div id="poodle">
+                <b>Poodle</b><br><br><br>
+                O Poodle é uma raça de cachorro de origem francesa que pode ter vários portes – mini, toy, standart e gigante – e é um dos cachorros que vivem mais tempo, podendo chegar aos 18 anos. O Poodle toy pode ser um pouco mais agressivo, principalmente com crianças, enquanto o mini tende a latir mais que os outros, mas, no geral, esses cães são dóceis e fáceis de adestrar.
+            </div>
+
+            <div class="imagem">
+                <img src="recursos/index/racas/Poodle.jpg" alt="poodle" width="54%">
+            </div>
+            <br><br><br>
+        </div>
+
+        <div>
+            <a name="lhasaapso"></a>
+            <div id="lhasaapso">
+                <b>Lhasa Apso</b>
+                <br><br><br>
+                O Lhasa é um cachorro carinhoso e tranquilo, mas alguns podem não se dar muito bem com crianças pequenas. São ótimos cães de companhia e se adaptam bem aos espaços pequenos.<br>
+                Raça originária do Tibet, sua história é cheia de lendas e espiritualidade. Acreditava-se que, quando um tutor de um Lhasa Apso morria, sua alma reencarnaria em outro cachorro da mesma raça. ⠀
+            </div>
+
+            <div class="imagem">
+                <img src="recursos/index/racas/Lhasaapso.jpg" alt="Lhasa Apso" width="54%">
+            </div>
+            <br><br><br>
+        </div>
+
+        <div>
+
+            <a name="buldogue"></a>
+            <div id="buldoguefrances">
+                <b>Buldogue Francês</b>
+                <br><br><br>
+                O Buldogue Francês é preguiçoso e ama ficar dormindo. É uma raça de <a href="https://www.petz.com.br/blog/cachorros/caes-braquicefalicos/" style="color: pink;">cachorro braquicefálico</a> e, por isso, precisa de alguns cuidados especiais. É um animal muito carinhoso, brincalhão e se dá muito bem com crianças. Porém, pode ser um pouco territorialista e agitado, com tendência a latir bastante, principalmente os machos não castrados.
+            </div>
+
+            <div class="imagem">
+                <img src="recursos/index/racas/Buldoguefrances.jpg" alt="Buldogue Francês" width="54%">
+            </div>
+            <br><br><br>
+        </div>
+
+        <div>
+
+            <a name="golden"></a>
+            <div id="golden">
+                <b>Golden Retriever</b>
+                <br><br><br>
+                Os Goldens são conhecidos pela simpatia e maciez de seus pelos. Gostam muito de correr e brincar, mas também são ótimos para fazer companhia e não rejeitam um carinho. Apesar de precisarem de atenção e exercícios para se manterem saudáveis, como qualquer outro cachorro, são calmos e ideais para qualquer faixa etária. Uma das melhores raças de cachorro para crianças.
+            </div>
+
+            <div class="imagem">
+                <img src="recursos/index/racas/Goldenretriever.jpg" alt="Golden Retriever" width="54%">
+            </div>
+            <br><br><br>
+        </div>
+
+        <div>
+
+            <a name="labrador"></a>
+            <div id="labrador">
+                <b>Labrador</b>
+                <br><br><br>
+                Apesar de ser um cachorro grande, o Labrador é alegre, carinhoso e muito dócil. Com muita energia, esses cachorros são ideais para espaços grandes e crianças agitadas, já que precisam de exercício e atenção constantes. Essa raça também é uma ótima companhia para crianças com algum tipo de necessidade especial, como autismo e Síndrome de Down.
+            </div>
+
+            <div class="imagem">
+                <img src="recursos/index/racas/labrador.jpg" alt="Labradors" width="54%">
+            </div>
+            <br><br><br>
+        </div>
+
+        <div>
+
+            <a name="maltes"></a>
+            <div id="maltes">
+                <b>Maltês</b>
+                <br><br><br>
+                O Maltês, apesar de dócil com os tutores, pode ser bem ciumento e territorialista, apresentando comportamentos agressivos com pessoas e animais desconhecidos. Além dos cuidados com a pelagem, que tende a embaraçar, necessita de atenção especial, pois tem predisposição a algumas doenças como luxação de patela, problemas hepáticos, cardíacos e alergias na pele. ⠀
+            </div>
+
+            <div class="imagem">
+                <img src="recursos/index/racas/Maltes.jpg" alt="Maltês" width="54%">
+            </div>
+            <br><br><br>
+        </div>
+
+        <div>
+
+            <div id="pinscher">
+                <b>Pinscher</b>
+                <br><br><br>
+                Os Pinschers são extremamente territorialistas e ciumentos, o que pode fazer com que fiquem agressivos em algumas situações. Ao menor sinal de desconforto ou desconfiança, podem latir e avançar. Mas também são carinhosos e brincalhões, apesar de não gostarem muito de crianças e preferirem a companhia de tutores mais velhos. <br><br>
+                No inverno, sentem muito frio e precisam de cuidados especiais com a temperatura corporal. Fora isso, são cães de muita energia, mas precisam de cuidados com alimentação para evitar a obesidade e a diabetes.<br>
+            </div>
+
+            <div class="imagem">
+                <img src="recursos/index/racas/Pinscher.jpg" alt="Pinscher" width="54%">
+            </div>
+            <br><br><br>
+        </div>
+
+    </div>
+
+    <a name="adote"></a>
+    <div class="adote">
+        <b>
+            <p align="center" style="color: ghostwhite; font-size: 22px; text-decoration: overline underline">Não compre um cachorro, adote!</p></b>
+        <br>
+        <div style="float: left; margin-right: 20px;">
+        <img style="margin-right: 10px;" src="recursos/index/adote.jpg">
+        </div>
+        <div style="margin-left: 0;">
+            <b style="color: pink;">Aqui listamos 10 das principais vantagens em adotar um cachorrinho:</b>
+            <ol style="color: ghostwhite;">
+                <li>O cachorro vira-lata está sempre pronto para te dar muito amor
+                    Quem procura por cachorros carinhosos não vai se decepcionar: o vira-lata é puro amor! Como esses cães geralmente já tiveram uma vida bastante difícil nas ruas, o sentimento de gratidão que existe dentro deles é imenso, e é justamente por isso que eles não poupam esforços para demonstrar o quanto se sentem gratos e felizes por terem conquistado um lar. Então, o cachorro vira-lata sempre tenta “agradecer” seus humanos com muito amor e carinho - e a gente adora!
+                </li><br>
+
+                <li>
+                    A adoção de cachorro vira-lata não custa nadinha!
+                    Tem gente que sempre sonhou em ter um cachorro de raça, mas isso é algo que exige certo planejamento financeiro. A maioria das raças de cachorro custa, pelo menos, R$ 3 mil e, dependendo da linhagem do animal, pode ser ainda mais caro. Já ao optar por adotar cachorro, você não gasta absolutamente nada com isso! O processo de adoção é totalmente gratuito e você ainda ajuda a salvar a vida de um peludinho, que tem tudo para ser seu novo melhor amigo. Ou seja, é só vantagem, né?
+                </li><br>
+
+                <li>
+                    Ao adotar cachorro vira-lata, você vai estar ajudando a reduzir o número de animais abandonados
+                    Infelizmente, o número de cães abandonados continua aumentando ao longo dos anos e nem todos os animais conseguem um abrigo ou lar adequado para viver. É por isso que dizemos que adotar cachorro, além de ser um ato de amor, também é algo que ajuda a salvar uma vida. Você garante que vai ter menos um cãozinho nas ruas, e que ele será bem tratado e vai receber todos os cuidados necessários para viver bem, feliz e saudável.
+                </li><br>
+
+                <li>O cachorro vira-lata (filhote ou adulto) geralmente tem uma personalidade amigável
+                    O vira-lata é uma verdadeira caixinha de surpresas. As características físicas, personalidade e temperamento do cãozinho podem variar bastante, mas uma qualidade que é presente em praticamente todos os cães sem raça definida é a sua lealdade e amizade. O cachorro vira-lata é um amigo para todas as horas e sempre vai estar do seu lado quando você precisar. Além disso, eles tendem a ser bastante carinhosos com a sua família e têm uma energia que contagia qualquer ambiente.
+                </li><br>
+
+                <li>
+                    O vira-lata costuma ser bastante esperto e independente
+                    Pensa em um cãozinho sagaz: esse é o vira-lata. Acostumados a se virar sozinhos - principalmente os adultos -, esses cachorros costumam ser bastante independentes no geral. Não costumam apresentar problemas como ansiedade de separação e são bastante espertos. No entanto, é importante arrumar um jeitinho de gastar a energia do animal adequadamente. Caso contrário, os móveis da casa viram um alvo fácil. Uma boa dica é não deixar os passeios de lado!
+                </li><br>
+
+                <li>
+                    Cada cachorro vira-lata tem características únicas e que o tornam ainda mais especial
+                    As fotos de cachorro vira-lata não negam: cada um desses cãezinhos têm particularidades que os tornam únicos. As características físicas desses animais costumam variar bastante, seja por causa do seu porte, da aparência dos seus pelos ou até mesmo o formato do focinho e das orelhas. Você pode encontrar um vira-lata que é muito peludo, e outro que é praticamente sem pelos, por exemplo. Além disso, a variedade de cores também é enorme - embora, aqui no Brasil, o famoso “vira-lata caramelo” seja o mais popular.
+
+                </li><br>
+
+                <li>
+                    Um cãozinho vira-lata normalmente tem uma saúde mais resistente
+                    Por se tratar de uma mistura de várias raças de cachorro diferentes, o vira-lata tem um organismo mais resistente e com menor predisposição para doenças genéticas. Isso acontece por causa do processo de seleção natural que atinge os cãezinhos desabrigados: na prática, na maioria das vezes sobrevivem os cães mais fortes e resistentes. Mas atenção: isso não quer dizer que o cachorro vira-lata nunca fica doente, hein? Embora resistentes, esses cães não são imunes a doenças. Por isso, o ideal é fazer check-ups regulares com o médico veterinário.
+                </li><br>
+
+                <li>
+                    Existe vira-lata para de todos os tamanhos e para todos os gostos
+                    A maioria dos cachorros vira-latas são de porte médio, mas isso não quer dizer que todos vão seguir esse padrão. Logo, é possível encontrar cães pequenos, médios e até grandes: tem para todos os gostos. Então, se você estiver procurando por um porte mais específico e se sente inseguro de pegar um vira-lata sem saber até que tamanho ele vai crescer, não precisa se preocupar. Geralmente, os abrigos já têm essa informação para te passar no momento da adoção de cachorro.
+                </li><br>
+
+                <li>
+                    O famoso cãozinho vira-lata é um dos mais queridinhos do Brasil
+                    Mesmo que existam várias raças de cachorro por aí, não dá para negar que o vira-lata conquistou o coração dos brasileiros. Não é à toa que muitos dizem que o “vira lata caramelo representa o Brasil mais do que futebol e samba”, não é mesmo? A verdade é que mesmo que esses cães não tenham uma raça definida, é simplesmente impossível resistir ao charme, autenticidade e simpatia de um cachorro vira-latinha. Só quem conhece, sabe.
+                </li><br>
+                <li>
+                    Adotar cachorro vira-lata é um ato de amor e que vai mudar a vida do animal
+                    Por último, mas não menos importante, a adoção - seja de um cachorro vira-lata filhote ou adulto - é uma atitude muito admirável, porque é movida por amor. É uma forma de mostrar que você realmente se importa com aquele animalzinho, não importa se ele é de raça ou não. E o melhor de tudo é que atitudes assim ajudam a transformar o mundo em um lugar melhor, além, claro, de mudar totalmente a vida dos cachorros para adoção.
+                </li>
+            </ol>
+        </div>
+
+    </div>
 </div>
 
-<div class="racas">
-
-    <div>
-        <b>Shih Tzu</b>
-        <div id="shihtzu">
-            <br><br><br>
-            Os Shih Tzus estão sempre prontos para receber carinho, são muito dóceis e amigáveis com crianças e outros cães, por isso, são ótimas companhias. Eles se adaptam bem a pequenos espaços, sendo uma escolha frequente de tutores que moram em apartamentos. ⠀
-        </div>
-        <div class="imagem">
-            <img src="recursos/index/racas/Shihtzu.jpg" alt="Shih-Tzu" width="54%">
-        </div>
-        <br><br><br>
-    </div>
-
-    <div>
-        <b>Yorkshire</b>
-        <div id="yorkshire">
-            <br><br><br>
-            Os Yorkshires são cães fiéis e carinhosos, mas podem latir muito para estranhos. É preciso ter um cuidado especial na presença de crianças menores, que podem acabar machucando o cão sem querer. A raça mini é considerada de companhia, mas não gosta e nem deve ficar muito tempo no colo, pois a posição pode desencadear dores e problemas na coluna. Mesmo sendo pequeno, o Yorkshire precisa de exercícios para se manter saudável.
-        </div>
-
-        <div class="imagem">
-            <img src="recursos/index/racas/Yorkshire.jpg" alt="yorkshire" width="54%">
-        </div>
-        <br><br><br>
-    </div>
-
-    <div>
-        <b>Poodle</b>
-        <div id="poodle">
-            <br><br><br>
-            O Poodle é uma raça de cachorro de origem francesa que pode ter vários portes – mini, toy, standart e gigante – e é um dos cachorros que vivem mais tempo, podendo chegar aos 18 anos. O Poodle toy pode ser um pouco mais agressivo, principalmente com crianças, enquanto o mini tende a latir mais que os outros, mas, no geral, esses cães são dóceis e fáceis de adestrar.
-        </div>
-        
-        <div class="imagem">
-            <img src="recursos/index/racas/Poodle.jpg" alt="poodle" width="54%">
-        </div>
-        <br><br><br>
-    </div>
-
-    <div>
-        <b>Lhasa Apso</b>
-        <div id="lhasaapso">
-            <br><br><br>
-            O Lhasa é um cachorro carinhoso e tranquilo, mas alguns podem não se dar muito bem com crianças pequenas. São ótimos cães de companhia e se adaptam bem aos espaços pequenos.<br>
-            Raça originária do Tibet, sua história é cheia de lendas e espiritualidade. Acreditava-se que, quando um tutor de um Lhasa Apso morria, sua alma reencarnaria em outro cachorro da mesma raça. ⠀
-        </div>
-
-        <div class="imagem">
-            <img src="recursos/index/racas/Lhasaapso.jpg" alt="Lhasa Apso" width="54%">
-        </div>
-        <br><br><br>
-    </div>
-
-    <div>
-        <b>Buldogue Francês</b>
-        <div id="buldoguefrances">
-            <br><br><br>
-            O Buldogue Francês é preguiçoso e ama ficar dormindo. É uma raça de <a href="https://www.petz.com.br/blog/cachorros/caes-braquicefalicos/">cachorro braquicefálico</a> e, por isso, precisa de alguns cuidados especiais. É um animal muito carinhoso, brincalhão e se dá muito bem com crianças. Porém, pode ser um pouco territorialista e agitado, com tendência a latir bastante, principalmente os machos não castrados.
-        </div>
-
-        <div class="imagem">
-            <img src="recursos/index/racas/Buldoguefrances.jpg" alt="Buldogue Francês" width="54%">
-        </div>
-        <br><br><br>
-    </div>
-
-    <div>
-        <b>Golden Retriever</b>
-        <div id="golden">
-            <br><br><br>
-            Os Goldens são conhecidos pela simpatia e maciez de seus pelos. Gostam muito de correr e brincar, mas também são ótimos para fazer companhia e não rejeitam um carinho. Apesar de precisarem de atenção e exercícios para se manterem saudáveis, como qualquer outro cachorro, são calmos e ideais para qualquer faixa etária. Uma das melhores raças de cachorro para crianças.
-        </div>
-
-        <div class="imagem">
-            <img src="recursos/index/racas/Goldenretriever.jpg" alt="Golden Retriever" width="54%">
-        </div>
-        <br><br><br>
-    </div>
-
-    <div>
-        <b>Labrador</b>
-        <div id="labrador">
-            <br><br><br>
-            Apesar de ser um cachorro grande, o Labrador é alegre, carinhoso e muito dócil. Com muita energia, esses cachorros são ideais para espaços grandes e crianças agitadas, já que precisam de exercício e atenção constantes. Essa raça também é uma ótima companhia para crianças com algum tipo de necessidade especial, como autismo e Síndrome de Down.
-        </div>
-
-        <div class="imagem">
-            <img src="recursos/index/racas/labrador.jpg" alt="Labradors" width="54%">
-        </div>
-        <br><br><br>
-    </div>
-
-    <div>
-        <b>Maltês</b>
-        <div id="maltes">
-            <br><br><br>
-            O Maltês, apesar de dócil com os tutores, pode ser bem ciumento e territorialista, apresentando comportamentos agressivos com pessoas e animais desconhecidos. Além dos cuidados com a pelagem, que tende a embaraçar, necessita de atenção especial, pois tem predisposição a algumas doenças como luxação de patela, problemas hepáticos, cardíacos e alergias na pele. ⠀
-        </div>
-
-        <div class="imagem">
-            <img src="recursos/index/racas/Maltes.jpg" alt="Maltês" width="54%">
-        </div>
-        <br><br><br>
-    </div>
-
-    <div>
-        <b>Pinscher</b>
-        <div id="pinscher">
-            <br><br><br>
-            Os Pinschers são extremamente territorialistas e ciumentos, o que pode fazer com que fiquem agressivos em algumas situações. Ao menor sinal de desconforto ou desconfiança, podem latir e avançar. Mas também são carinhosos e brincalhões, apesar de não gostarem muito de crianças e preferirem a companhia de tutores mais velhos. <br><br>
-            No inverno, sentem muito frio e precisam de cuidados especiais com a temperatura corporal. Fora isso, são cães de muita energia, mas precisam de cuidados com alimentação para evitar a obesidade e a diabetes.<br>
-        </div>
-
-        <div class="imagem">
-            <img src="recursos/index/racas/Pinscher.jpg" alt="Pinscher" width="54%">
-        </div>
-        <br><br><br>
-    </div>
+<div style="width: 100%; height: 34px; color: white; background-color: #FFB4A2">
+    <p style="font-size: 22px;">
+        <a style="color: white; display: block; text-decoration: none;" href="#topo">Voltar ao topo</a>
+    </p>
 
 </div>
 
-<div class="adote" style="background-color: #fff4f4; align-items: center; padding: 1px;">
-    <b>
-    <p align="center" style="color: #684c4c; font-size: 22px; text-decoration: overline underline">Não compre um cachorro, adote!</p></b>
-</div>
 
-<div class="adote">
-    <br>
-    <b style="color: pink;">Aqui listamos 10 das principais vantagens em adotar um cachorrinho:</b>
-    <ol style="color: ghostwhite;">
-        <li>O cachorro vira-lata está sempre pronto para te dar muito amor
-            Quem procura por cachorros carinhosos não vai se decepcionar: o vira-lata é puro amor! Como esses cães geralmente já tiveram uma vida bastante difícil nas ruas, o sentimento de gratidão que existe dentro deles é imenso, e é justamente por isso que eles não poupam esforços para demonstrar o quanto se sentem gratos e felizes por terem conquistado um lar. Então, o cachorro vira-lata sempre tenta “agradecer” seus humanos com muito amor e carinho - e a gente adora!
-        </li><br>
-
-        <li>
-            A adoção de cachorro vira-lata não custa nadinha!
-            Tem gente que sempre sonhou em ter um cachorro de raça, mas isso é algo que exige certo planejamento financeiro. A maioria das raças de cachorro custa, pelo menos, R$ 3 mil e, dependendo da linhagem do animal, pode ser ainda mais caro. Já ao optar por adotar cachorro, você não gasta absolutamente nada com isso! O processo de adoção é totalmente gratuito e você ainda ajuda a salvar a vida de um peludinho, que tem tudo para ser seu novo melhor amigo. Ou seja, é só vantagem, né?
-        </li><br>
-
-        <li>
-            Ao adotar cachorro vira-lata, você vai estar ajudando a reduzir o número de animais abandonados
-            Infelizmente, o número de cães abandonados continua aumentando ao longo dos anos e nem todos os animais conseguem um abrigo ou lar adequado para viver. É por isso que dizemos que adotar cachorro, além de ser um ato de amor, também é algo que ajuda a salvar uma vida. Você garante que vai ter menos um cãozinho nas ruas, e que ele será bem tratado e vai receber todos os cuidados necessários para viver bem, feliz e saudável.
-        </li><br>
-
-        <li>O cachorro vira-lata (filhote ou adulto) geralmente tem uma personalidade amigável
-            O vira-lata é uma verdadeira caixinha de surpresas. As características físicas, personalidade e temperamento do cãozinho podem variar bastante, mas uma qualidade que é presente em praticamente todos os cães sem raça definida é a sua lealdade e amizade. O cachorro vira-lata é um amigo para todas as horas e sempre vai estar do seu lado quando você precisar. Além disso, eles tendem a ser bastante carinhosos com a sua família e têm uma energia que contagia qualquer ambiente.
-        </li><br>
-
-        <li>
-            O vira-lata costuma ser bastante esperto e independente
-            Pensa em um cãozinho sagaz: esse é o vira-lata. Acostumados a se virar sozinhos - principalmente os adultos -, esses cachorros costumam ser bastante independentes no geral. Não costumam apresentar problemas como ansiedade de separação e são bastante espertos. No entanto, é importante arrumar um jeitinho de gastar a energia do animal adequadamente. Caso contrário, os móveis da casa viram um alvo fácil. Uma boa dica é não deixar os passeios de lado!
-        </li><br>
-
-        <li>
-            Cada cachorro vira-lata tem características únicas e que o tornam ainda mais especial
-            As fotos de cachorro vira-lata não negam: cada um desses cãezinhos têm particularidades que os tornam únicos. As características físicas desses animais costumam variar bastante, seja por causa do seu porte, da aparência dos seus pelos ou até mesmo o formato do focinho e das orelhas. Você pode encontrar um vira-lata que é muito peludo, e outro que é praticamente sem pelos, por exemplo. Além disso, a variedade de cores também é enorme - embora, aqui no Brasil, o famoso “vira-lata caramelo” seja o mais popular.
-
-        </li><br>
-
-        <li>
-            Um cãozinho vira-lata normalmente tem uma saúde mais resistente
-            Por se tratar de uma mistura de várias raças de cachorro diferentes, o vira-lata tem um organismo mais resistente e com menor predisposição para doenças genéticas. Isso acontece por causa do processo de seleção natural que atinge os cãezinhos desabrigados: na prática, na maioria das vezes sobrevivem os cães mais fortes e resistentes. Mas atenção: isso não quer dizer que o cachorro vira-lata nunca fica doente, hein? Embora resistentes, esses cães não são imunes a doenças. Por isso, o ideal é fazer check-ups regulares com o médico veterinário.
-        </li><br>
-
-        <li>
-            Existe vira-lata para de todos os tamanhos e para todos os gostos
-            A maioria dos cachorros vira-latas são de porte médio, mas isso não quer dizer que todos vão seguir esse padrão. Logo, é possível encontrar cães pequenos, médios e até grandes: tem para todos os gostos. Então, se você estiver procurando por um porte mais específico e se sente inseguro de pegar um vira-lata sem saber até que tamanho ele vai crescer, não precisa se preocupar. Geralmente, os abrigos já têm essa informação para te passar no momento da adoção de cachorro.
-        </li><br>
-
-        <li>
-            O famoso cãozinho vira-lata é um dos mais queridinhos do Brasil
-            Mesmo que existam várias raças de cachorro por aí, não dá para negar que o vira-lata conquistou o coração dos brasileiros. Não é à toa que muitos dizem que o “vira lata caramelo representa o Brasil mais do que futebol e samba”, não é mesmo? A verdade é que mesmo que esses cães não tenham uma raça definida, é simplesmente impossível resistir ao charme, autenticidade e simpatia de um cachorro vira-latinha. Só quem conhece, sabe.
-        </li><br>
-        <li>
-            Adotar cachorro vira-lata é um ato de amor e que vai mudar a vida do animal
-            Por último, mas não menos importante, a adoção - seja de um cachorro vira-lata filhote ou adulto - é uma atitude muito admirável, porque é movida por amor. É uma forma de mostrar que você realmente se importa com aquele animalzinho, não importa se ele é de raça ou não. E o melhor de tudo é que atitudes assim ajudam a transformar o mundo em um lugar melhor, além, claro, de mudar totalmente a vida dos cachorros para adoção.
-        </li>
-
-
-
-    </ol>
-</div>
 </body>
 </html>
