@@ -3,27 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Mural das fofuras</title>
     <link rel="stylesheet" href="stylesheets.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
 
     <style>
-
-
-        img {
-            margin: 2px solid pink;
-            height: 30%;
-            width: 30%;
-            border-radius: 10px;
-        }
-
         body{
-            background-image: url(recursos/mural/planodefundo.jpg);
+            background-color: #B5838D;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             marign: 0;
         }
+
+        .img{
+            margin: 2px solid pink;
+            height: 480px;
+            width: 480px;
+            border-radius: 10px;
+
+        }
+
+        .apresentacao{
+            display: flex;
+            margin-top: 10px;
+            padding: 20px;
+            background-color: #FFCDB2;
+        }
+
+        .img__dscr{
+            float:  bottom;
+            width: 30%;
+            text-align: center;
+            color: #00334b;
+            font-size: 22px;
+            font-family: "Kalam", sans-serif;
+        }
+
+        .texto{
+            float: right;
+        }
+
+
 
 
     </style>
@@ -41,38 +64,34 @@
         <br>
         <li><a href="mural.html">Seu doguinho no mural</a></li>
         <br>
-        <hr style="color: ghostwhite;">
-        <h1 style="color: ghostwhite; text-decoration: underline;">Atalhos</h1>
-        <br>
-        <li style="font-size: 20px;"><a href="#inicio">Início</a></li>
-        <br>
-        <li><a href="#cachorros-fofos">Cachorros fofos</a></li>
-        <br>
-        <li><a href="#cachorros-estilosos">Cachorros Estilosos</a></li>
-        <br>
-        <li><a href="#cachorros-comendo">Cachorros Comendo</a></li>
-        <br>
-        <li><a href="#cachorros-engracados">Cachorros Engraçados</a></li>
-        <br>
     </ul>
 </nav>
 
 <section>
-    <a id="cachorros-fofos"></a>
-    <ul align="center">
-        <li><img src="recursos/mural/fofos/foto1.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto2.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto3.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto4.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto5.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto6.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto7.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto8.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto9.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto10.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto11.jfif"></li>
-        <li><img src="recursos/mural/fofos/foto12.jfif"></li>
-    </ul>
+    <div class="apresentacao">
+
+        <img src="recursos/mural/doguinhos/aquilespasseando.jpg" class="img">
+        <div class="img__dscr" style="margin-right: 5px; border-right: 4px solid #b8848c">
+            <b>Nome do doguinho:</b> Aquiles <br> <b>Nome do(a) humano(a):</b> Heitor <br> <b>Descrição: </b>Aquiles se preparando para ir passear
+        </div>
+        <img src="recursos/mural/doguinhos/cocodeca.jpg" class="img" style="margin-left: 6px">
+        <div class="img__dscr">
+            <b>Nome do doguinho: </b> Cocodeca <br> <b>Nome do(a) humano(a):</b> Heitor <br> <b>Descrição:</b> Site errado?? para saber mais sobre galinhas, visite <a href="https://pt.wikipedia.org/wiki/Galinha">aqui</a>.
+        </div>
+
+        <div></div>
+    </div>
+
+    <div class="apresentacao">
+        <img src="recursos/mural/doguinhos/aquilesolhando.jpg" class="img">
+        <div class="img__dscr" style="margin-right: 5px; border-right: 4px solid #b8848c">
+            <b>Nome do doguinho:</b> Aquiles <br> <b>Nome do(a) humano(a):</b> Heitor <br> <b>Descrição: </b>Aquiles olhando para a camera (fofo)
+        </div>
+        <img src="recursos/mural/fofos/foto1.jfif" class="img" style="margin-left: 6px">
+        <div class="img__dscr">
+            <b>Nome do doguinho: </b> Fulano <br> <b>Nome do(a) humano(a):</b> Claudio <br> <b>Descrição:</b> Um doguinho fofo
+        </div>
+    </div>
 
 </section>
 

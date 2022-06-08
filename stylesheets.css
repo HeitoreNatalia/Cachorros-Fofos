@@ -24,7 +24,7 @@ section{
 }
 
 nav ul{
-    background-color: pink;
+    background-color: #6D6875;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ nav ul{
     height: 100%;
     overflow: hidden;
     position: fixed;
-    border-right: 2px solid pink;
+    border-right: 2px solid #B5838D;
 }
 
 nav li a{
