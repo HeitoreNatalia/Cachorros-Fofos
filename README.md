@@ -1,2 +1,2 @@
 # Cachorros-Fofos
-Este é um projeto sobre cachorros fofos :3
+Agora é consertar a bagunça q eu fiz 
